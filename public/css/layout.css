@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+/*
+	margin-left: 30px;
+	margin-right: 30px;
+*/
+	font-size: 20px;
+	margin-top: 5px;
+	background-color: #E8FCE7;
+}
+#margin_00{
+	margin: 10px 50px 5px 50px;
+}

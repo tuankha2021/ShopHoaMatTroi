@@ -1,0 +1,138 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;
+}
+
+#hoa-tuoi-content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.chu-de-hoa-subheading {
+	font-family: Amatic SC;
+	font-size: 50px;
+}
+
+#chu-de {
+	height: 600px;
+	background-color: rgba(242, 198, 199, 0.82);
+}
+
+	#chu-de h1 {
+		margin: 0;
+		text-align: center;
+		font-family: Pattaya;
+		font-size: 70px;
+	}
+
+	#chu-de .chu-de-hoa-content {
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%
+	}
+
+		#chu-de .chu-de-hoa-content p {
+			font-size: 18px;
+		}
+
+	#chu-de .chu-de-hoa-heading p {
+		margin-left: 20px;
+		text-indent: 30px;
+		font-size: 17px;
+	}
+
+	#chu-de .chu-de-hoa-heading h2 {
+		margin-left: 20px;
+		color: rgb(196, 49, 49);
+	}
+
+	#chu-de p {
+		text-align: justify;
+	}
+
+.khung-sp {
+	width: 100%;
+	height: 400px;
+	background-color: rgba(187, 248, 0, 0.31);
+}
+
+.san-pham {
+	float: left;
+	background-color: red;
+	height: 100%;
+}
+
+.khung-sp-1 {
+	width: 100%;
+	max-width: 100%;
+	height: 550px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	background-color: rgba(72,255,44,0.19);
+	padding: 20px;
+}
+
+	.khung-sp-1 .mua-hang {
+		padding: 10px 15px;
+		background-image: linear-gradient(orange, yellow);
+		color: black;
+		text-decoration: none;
+		border-radius: 4px;
+	}
+
+		.khung-sp-1 .mua-hang:hover {
+			background-image: linear-gradient(yellow, orange);
+		}
+
+	.khung-sp-1 .san-pham-1 {
+		float: left;
+		text-align: center;
+		width: 25%;
+		margin-top: 50px;
+		height: 500px;
+	}
+
+	.khung-sp-1 .gia {
+		font-size: 22px;
+		color: #c00;
+	}
+
+	.khung-sp-1 .ten-hoa {
+		margin-bottom: 0;
+		font-family: Pattaya;
+	}
+
+	.khung-sp-1 .san-pham-1 .hoa-image-1 {
+		width: 60%;
+		border-radius: 7px;
+	}
+
+	.khung-sp-1 .ten-hoa {
+		font-size: 30px;
+	}
+
+ul {
+	padding-left: 30px;
+}
+
+.para {
+	text-align: justify;
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#footer_01
+{
+	font-size: 18px;
+	background-color:rgba(60,243,72,0.05);
+	height: 170px;
+}
+#map
+{
+	width: 300px;
+	height: 150px;
+	padding-top:20px;
+	margin-left:50px;
+	margin-right: 0px;
+}
+#id_01
+{
+	text-align: center;
+	color:#092C0F;
+	font-size: 16px;
+	padding:10px;
+}
+#id_02
+{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}

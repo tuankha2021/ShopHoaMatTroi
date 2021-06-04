@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+.navbar{
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    background: rgba(0,0,0, .6) !important;
+    
+}
+.navbar-nav li{
+    padding-right: .7rem ;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:  #f36100;
+}
+.ml-auto{
+    margin: auto !important;
+}
+#nav{
+	font-size: 20px;
+	color: #E5F9EB;
+	text-transform: capitalize;
+}

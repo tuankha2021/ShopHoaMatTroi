@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face 
+{
+    font-family:font_02;
+    src:url("../font/font_02.ttf");
+    font-weight:bolder;
+}
+@font-face 
+{
+    font-family:font_01;
+    src:url("../font/font_01.ttf");
+    font-weight:bolder;
+}
+p {
+	padding: 10px;
+}
+.div_00 {
+	margin-top: 5px;
+	height:auto;
+}
+
+.div_01 {
+	height: 800px;
+	padding: 40px;
+	font-size: 16px;
+	text-align: justify;
+	padding: 20px;
+}
+.QH {
+	font-family: font_02;
+	color: rgba(9,2,247,1.00);
+	padding: 10px;
+}
+.img_size{
+	width: 100%;
+}
+.img_size_01{
+	width: 50%;
+	border: 1px solid black;
+}
+#margin_01 {
+	margin-left: 20px;
+	padding: 10px 50px 10px 20px;
+	height: auto;
+	font-family: font_02;
+	font-size: 17px;
+	text-align: justify;
+	background-color: rgba(22,252,26,0.05);
+}
+
+#margin_02 {
+	margin-left: 80px;
+	padding: 10px 10px 100px 20px;
+	height: auto;
+}
+#img_logo_col01{
+	float: left;
+	width: 100px;
+	height: 53px;
+	padding: 10px;
+}
+#text_01{
+	font-size: 24px;
+	font-family: font_01;
+	text-align:center;
+	padding-top: 50px;
+}
+#text_02{
+	text-align: center;
+	font-size: 50px;
+	font-family: font_01;
+	color: rgba(4,8,232,1.00);
+	padding: 5px;
+}
+#div_05 {
+	margin: 10px;
+	padding: 20px;
+	background-color: rgba(22,252,26,0.05);
+	height: auto;
+}
+#div_04{
+	background-color:rgba(22,252,26,0.5);
+	width: 100%;
+	margin-top: 20px;
+}
+#kham-pha {
+	font-family: font_01;
+	color: rgba(2,10,166,1.00);
+	padding: 10px;
+	font-size: 40px;
+}
+#map_01{
+	padding: 20px;
+}
+#div_03 {
+	height: auto;
+	margin: 10px;
+	padding: 20px;
+	text-align: justify;
+	font-size: 17px;
+	background-color: rgba(67,251,65,0.50);
+}
+
+{ box-sizing: border-box }
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.logo {
+    max-width: 100%;
+}
+
+.logo_01 {
+    max-width: 70%;
+}
+  /* Modal Content */
+  .modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 50%;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
